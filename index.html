@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCUL D'IMC</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="calcul.css">
+  
+</head>
+<body>
+    
+    <div class="maurel" align="center">
+        <h1>Calcul d' IMC</h1>
+        <p>Bienvenue sur la page !</p>
+        <h2>Consigne :</h2>
+        <p>Pour calculer votre IMC veuillez entrer  votre poids et votre taille 👇</p>
+        <form id ="monformulaire">
+            <label for="poids">Poids (en kg):</label><br><br>
+            <input type="number" id="poids" name="poids" min="2" max="635" required>
+            <br><br>
+            <label for="taille">Taille (en cm):</label><br><br>
+            <input type="number" id="taille" name="taille" min="45"max ="251"><br><br>
+            <label for="resultat">Resultat :</label><br><br>
+            <input type="text" id="txt" name="txt"disabled>
+            <br><br>
+            <label for="des">Description:👇</label><br><br>
+            <input type="text" id="interp" name="interp"disabled>
+            <br><br>
+            <button class="btn">Calculer</button>
+            <button class="btn1">Renitialiser</button>
+           
+           
+
+        </form>
+    </div>
+
+
+
+ 
+</body>
+</html>
